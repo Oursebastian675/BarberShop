@@ -109,9 +109,42 @@ main {
     margin-bottom: 0.5em;
 }
 
-.reserve-button {
+.service p {
+    margin: 5px 0;
+    color: #555;
+}    
+
+.service p strong {
+    color: #333;
+}
+
+.reserva {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.reserva h2 {
+    color: #333;
+}
+
+.reserva p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.boton-reserva {
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #333;
     color: #fff;
-    border: none;
-    padding: 0.5em 1em;
-}    
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-reserva:hover {
+    background-color: #555;
+}
